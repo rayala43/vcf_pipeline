@@ -1,0 +1,21 @@
+##fileformat=VCFv4.2
+##fileDate=20240101
+##source=GenepoweRx_Pipeline_v1.0
+##reference=GRCh38
+##INFO=<ID=AF,Number=A,Type=Float,Description="Allele Frequency">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Total Depth">
+##INFO=<ID=GENE,Number=1,Type=String,Description="Gene Name">
+##INFO=<ID=CLNSIG,Number=.,Type=String,Description="ClinVar Clinical Significance">
+##INFO=<ID=CLNDN,Number=.,Type=String,Description="ClinVar Disease Name">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=AD,Number=R,Type=Integer,Description="Allele Depth">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype Quality">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	SAMPLE_001
+2	227099598	rs1801282	C	G	120	PASS	AF=0.12;DP=45;GENE=PPARG;CLNSIG=Likely_pathogenic;CLNDN=Type_2_Diabetes	GT:AD:GQ	0/1:20,25:99
+6	20679709	rs7754840	C	G	95	PASS	AF=0.31;DP=38;GENE=CDKAL1;CLNSIG=risk_factor;CLNDN=Type_2_Diabetes	GT:AD:GQ	0/1:18,20:85
+10	114758349	rs10740055	A	G	110	PASS	AF=0.22;DP=52;GENE=TCF7L2;CLNSIG=Pathogenic;CLNDN=Type_2_Diabetes/Maturity_onset_diabetes	GT:AD:GQ	1/1:2,50:99
+11	17388025	rs5215	A	G	88	PASS	AF=0.09;DP=41;GENE=KCNJ11;CLNSIG=Likely_pathogenic;CLNDN=Type_2_Diabetes	GT:AD:GQ	0/1:22,19:80
+3	12393125	rs4402960	T	G	102	PASS	AF=0.27;DP=44;GENE=IGF2BP2;CLNSIG=risk_factor;CLNDN=Type_2_Diabetes	GT:AD:GQ	0/1:21,23:90
+6	34196823	rs9465871	C	T	75	PASS	AF=0.15;DP=36;GENE=CDKN2A;CLNSIG=risk_factor;CLNDN=Type_2_Diabetes	GT:AD:GQ	0/0:34,2:70
+7	94937446	rs4607517	A	G	130	PASS	AF=0.19;DP=58;GENE=GCK;CLNSIG=Pathogenic;CLNDN=Maturity_onset_diabetes	GT:AD:GQ	0/1:28,30:99
+12	121416650	rs2074196	A	G	90	PASS	AF=0.08;DP=39;GENE=HMGA2;CLNSIG=risk_factor;CLNDN=Type_2_Diabetes	GT:AD:GQ	0/1:20,19:82
