@@ -2,8 +2,6 @@
 
 A production-style genomics pipeline that parses VCF (Variant Call Format) files, filters variants by user-defined medical conditions at runtime, and generates **interactive HTML clinical reports** — no external bioinformatics tools required.
 
-Built from real-world experience processing clinical genomics data at GenepoweRx (K&H Personalized Clinical Research).
-
 ---
 
 ## Demo
