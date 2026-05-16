@@ -177,7 +177,3 @@ All 28 tests cover:
 Developed based on real clinical genomics workflows — extracting disease-specific gene/rsID combinations from patient VCF files, segregating by condition, and building automated outputs for clinical reporting. The sample VCFs use publicly known variant rsIDs from ClinVar and dbSNP.
 
 ---
-
-## License
-
-MIT — free to use, modify, and build upon.
