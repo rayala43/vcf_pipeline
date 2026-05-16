@@ -1,6 +1,6 @@
 ##fileformat=VCFv4.2
 ##fileDate=20240101
-##source=GenepoweRx_Pipeline_v1.0
+##source=mixed
 ##reference=GRCh38
 ##INFO=<ID=AF,Number=A,Type=Float,Description="Allele Frequency">
 ##INFO=<ID=DP,Number=1,Type=Integer,Description="Total Depth">
